@@ -8,9 +8,9 @@ public interface RemoteControl {
 	
 	//추상 메소드
 	
-	void turnOn();
-	void turnOff();
-	void setVolume(int volume);
+	public void turnOn();
+	public void turnOff();
+	public void setVolume(int volume);
 	
 	//디폴트 메소드
 	default void setMute(boolean mute) {
